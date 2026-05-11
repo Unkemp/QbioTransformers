@@ -2,16 +2,16 @@
 
 ## Overview
 
-A hands-on introduction to transformers and language models. (Pre Layer Norm transformer)
+A hands-on introduction to transformers and language models. (Pre-LN transformer)
 
 ## Files
 
-- `8_may_26.pdf` — Slide deck covering ML fundamentals and transformer architecture
+- `8_may_26.pdf` — Slide deck covering ML and transformer architecture
 - `Transformers_8_May_26_fin.ipynb` — Google Colab notebook for the hands-on coding portion
 
 ## What's Covered
 
-**Part 1: ML Primer**
+**Part 1: ML Intro**
 - Data as vectors (text, images, sound, tabular data)
 - Model as a parameterized function f_θ : X → Y
 - Neural network primitives: linear operations, ReLU, MLP, softmax
@@ -19,7 +19,7 @@ A hands-on introduction to transformers and language models. (Pre Layer Norm tra
 - Learning algorithm: gradient descent, loss curves, overfitting
 
 **Part 2: Transformer Architecture**
-- Dataset: TinyShakespeare (Karpathy)
+- Dataset: TinyShakespeare (Andrej Karpathy)
 - Training objective: next-token prediction
 - Single-head attention (Q, K, V projections → scaled dot-product → softmax → AV)
 - Multi-head attention and the output projection W_O
@@ -28,18 +28,8 @@ A hands-on introduction to transformers and language models. (Pre Layer Norm tra
 - Layer normalization and residual connections
 - Full language model: stacked transformer blocks + linear head
 
-## Getting Started
-
-Open the Colab notebook via the link on the title slide or directly:
-
-```
-https://tinyurl.com/257avm9d
-```
-
-The notebook is self-contained — it downloads the dataset, defines the model, trains it, and generates Shakespeare-like text.
-
-## References
+## References and Inspiration
 
 - Vaswani et al. (2017), *Attention Is All You Need*
-- Karpathy, *The Unreasonable Effectiveness of Recurrent Neural Networks* 
-- Karpathy, [nanoGPT](https://github.com/karpathy/nanoGPT) 
+- Andrej Karpathy, *The Unreasonable Effectiveness of Recurrent Neural Networks* 
+- Andrej Karpathy, [nanoGPT](https://github.com/karpathy/nanoGPT) 
