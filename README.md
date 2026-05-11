@@ -33,4 +33,4 @@ A hands-on introduction to transformers and language models. (Pre-LN transformer
 - Vaswani et al. (2017), *Attention Is All You Need*
 - Andrej Karpathy, *The Unreasonable Effectiveness of Recurrent Neural Networks*
 - Andrej Karpathy, [char-rnn](https://github.com/karpathy/char-rnn), source of TinyShakespeare
-- Andrej Karpathy, [nanoGPT](https://github.com/karpathy/nanoGPT) 
+- Andrej Karpathy, [nanoGPT](https://github.com/karpathy/nanoGPT), build your own transformer repo.
